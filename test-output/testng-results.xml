@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="13" failed="0" total="13" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="139" started-at="2020-07-07T10:06:52Z" finished-at="2020-07-07T10:06:52Z">
+    <groups>
+      <group name="sanit">
+        <method signature="TestNgFeatures.TestUserUpdate()[pri:3, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestUserUpdate" class="SeleniumSessions.TestNgFeatures"/>
+      </group> <!-- sanit -->
+    </groups>
+    <test name="Default test" duration-ms="139" started-at="2020-07-07T10:06:52Z" finished-at="2020-07-07T10:06:52Z">
+      <class name="SeleniumSessions.TestNgFeatures">
+        <test-method status="FAIL" signature="Login()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="Login" is-config="true" duration-ms="0" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+	Type mismatch: cannot convert from ChromeDriver to WebDriver
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from ChromeDriver to WebDriver
+
+	at SeleniumSessions.TestNgFeatures.Login(TestNgFeatures.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="2" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="5" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="2" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="3" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="4" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="6" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="3" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="3" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="2" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestCount()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestCount" duration-ms="3" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCount -->
+        <test-method status="SKIP" signature="TestUserCreate()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestUserCreate" duration-ms="1" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserCreate -->
+        <test-method status="SKIP" signature="TestUserEdit()[pri:1, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestUserEdit" duration-ms="2" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserEdit -->
+        <test-method status="SKIP" signature="TestUserUpdate()[pri:3, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="TestUserUpdate" duration-ms="1" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserUpdate -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:SeleniumSessions.TestNgFeatures@1810399e]" name="logout" is-config="true" duration-ms="0" started-at="2020-07-07T15:36:52Z" finished-at="2020-07-07T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- SeleniumSessions.TestNgFeatures -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
